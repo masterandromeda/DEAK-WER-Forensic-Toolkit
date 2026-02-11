@@ -1,0 +1,13 @@
+==== DEAK WER FORENSIC REPORT ====
+
+Case Name: Ivestigation
+Investigator: Rohit
+Evidence File: /etc/passwd
+
+---- Hash Information ----
+SHA256: 350ad22e5252c54604700d3fa11ae358df94f8425ee89b701db6da2a4851d4fd
+
+---- Metadata ----
+Size (bytes): 3527
+Created: Wed Jan 21 07:58:00 2026
+Modified: Wed Jan 21 07:58:00 2026
