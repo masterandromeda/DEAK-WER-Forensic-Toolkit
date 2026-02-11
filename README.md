@@ -15,7 +15,7 @@ A Digital Forensic Investigation Toolkit designed for:
 Tool Interface Preview
 
 ![Main Interface](images/Image%201.jpeg)
-![Evidence Analysis](images/iamge%202.png)
+![Evidence Analysis](images/Image%202.png)
 
 Installation Guide
 
