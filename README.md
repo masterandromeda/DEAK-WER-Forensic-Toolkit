@@ -28,19 +28,19 @@ A Digital Forensic Investigation Toolkit designed for:
 
 ---
 
-# 🖥️ Tool Interface Preview
-
-<div align="center">
+## 🖥️ Tool Interface Preview
 
 ### 🔹 Main Dashboard
-<img src="images/dashboard.png" width="50%" />
+<p align="center">
+  <img src="images/dashboard.png" width="900" />
+</p>
 
-<br><br>
+---
 
 ### 🔹 Hash Analyzer Module
-<img src="images/analyzer.png" />
-
-</div>
+<p align="center">
+  <img src="images/analyzer.png" width="900" />
+</p>
 
 ---
 
