@@ -65,6 +65,5 @@ Disclaimer
 
 This tool is developed for educational and digital forensic investigation purposes only.  
 The developer is not responsible for misuse.  
-Use only on data you are authorized to analyze.
->>>>>>> fb727b04e90a8d88809303253582d8fe15ab29be
+Use only on data you are authorized to analyze.>>>>>>> fb727b04e90a8d88809303253582d8fe15ab29be
 
