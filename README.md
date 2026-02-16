@@ -33,7 +33,7 @@ A Digital Forensic Investigation Toolkit designed for:
 <div align="center">
 
 ### 🔹 Main Dashboard
-<img src="images/dashboard.png" />
+<img src="images/dashboard.png" width="80%" />
 
 <br><br>
 
