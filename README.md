@@ -33,7 +33,7 @@ A Digital Forensic Investigation Toolkit designed for:
 <div align="center">
 
 ### 🔹 Main Dashboard
-<img src="images/dashboard.png" width="80%" />
+<img src="images/dashboard.png" width="50%" />
 
 <br><br>
 
@@ -67,3 +67,4 @@ This tool is developed for educational and digital forensic investigation purpos
 The developer is not responsible for misuse.  
 Use only on data you are authorized to analyze.
 >>>>>>> fb727b04e90a8d88809303253582d8fe15ab29be
+
