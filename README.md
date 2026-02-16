@@ -33,12 +33,12 @@ A Digital Forensic Investigation Toolkit designed for:
 <div align="center">
 
 ### 🔹 Main Dashboard
-<img src="images/dashboard.png" width="100%"/>
+<img src="images/dashboard.png" />
 
 <br><br>
 
 ### 🔹 Hash Analyzer Module
-<img src="images/analyzer.png" width="100%"/>
+<img src="images/analyzer.png" />
 
 </div>
 
