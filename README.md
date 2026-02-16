@@ -26,10 +26,24 @@ A Digital Forensic Investigation Toolkit designed for:
 • Case Management System  
 • Forensic Report Generation  
 
-Tool Interface Preview
+---
 
-![Main Interface](images/Image%201.jpeg)
-![Evidence Analysis](images/Image%202.png)
+# 🖥️ Tool Interface Preview
+
+<div align="center">
+
+### 🔹 Main Dashboard
+<img src="images/dashboard.png" width="100%"/>
+
+<br><br>
+
+### 🔹 Hash Analyzer Module
+<img src="images/analyzer.png" width="100%"/>
+
+</div>
+
+---
+
 
 Installation Guide
 
