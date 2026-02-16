@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox, filedialog
+
 from modules.case_manager import create_case, init_db
 from modules.hash_verifier import generate_hash
 from modules.metadata_analyzer import get_metadata
@@ -9,11 +10,13 @@ init_db()
 
 root = tk.Tk()
 root.title("DEAK WER Forensic Toolkit")
-root.geometry("400x350")
+root.geometry("450x420")
 
-tk.Label(root, text="DEAK WER Forensic Toolkit", font=("Arial", 16)).pack(pady=20)
+tk.Label(root, text="DEAK WER Forensic Toolkit", font=("Arial", 16)).pack(pady=15)
 
-# ---------- CREATE CASE ----------
+# ===============================
+# CREATE CASE WINDOW
+# ===============================
 def create_case_window():
     window = tk.Toplevel(root)
     window.title("Create Case")
@@ -33,7 +36,10 @@ def create_case_window():
 
     tk.Button(window, text="Save Case", command=save_case).pack(pady=10)
 
-# ---------- ANALYZE EVIDENCE ----------
+
+# ===============================
+# ANALYZE FILE EVIDENCE
+# ===============================
 def analyze_evidence():
     file_path = filedialog.askopenfilename()
     if not file_path:
@@ -42,10 +48,13 @@ def analyze_evidence():
     hash_value = generate_hash(file_path)
     metadata = get_metadata(file_path)
 
-    result = f"File: {file_path}\nSHA256: {hash_value}\nMetadata:\n{metadata}"
+    result = f"File: {file_path}\nSHA256: {hash_value}\n\nMetadata:\n{metadata}"
     messagebox.showinfo("Analysis Result", result)
 
-# ---------- HASH INPUT ANALYZER -----------
+
+# ===============================
+# HASH INPUT ANALYZER
+# ===============================
 def analyze_hash_input():
     hash_value = hash_entry.get().strip()
 
@@ -57,20 +66,28 @@ def analyze_hash_input():
         messagebox.showwarning("Invalid Hash", "Hash length looks incorrect.")
         return
 
+    # Call backend analyzer
     result = analyze_hash(hash_value)
+
     messagebox.showinfo("Hash Analysis Result", result)
 
-# --------- HASH ANALYZER UI ------------
+
+# ===============================
+# HASH ANALYZER UI
+# ===============================
 tk.Label(root, text="Analyze Hash Value", font=("Arial", 12)).pack(pady=5)
 
-hash_entry = tk.Entry(root, width=40)
+hash_entry = tk.Entry(root, width=50)
 hash_entry.pack(pady=5)
 
 tk.Button(root, text="Analyze Hash", width=25, command=analyze_hash_input).pack(pady=5)
 
-# ---------- BUTTONS ----------
+
+# ===============================
+# MAIN BUTTONS
+# ===============================
 tk.Button(root, text="Create New Case", width=25, command=create_case_window).pack(pady=10)
-tk.Button(root, text="Analyze Evidence", width=25, command=analyze_evidence).pack(pady=10)
+tk.Button(root, text="Analyze Evidence File", width=25, command=analyze_evidence).pack(pady=10)
 
 root.mainloop()
 
