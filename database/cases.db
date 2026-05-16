@@ -1,0 +1,19 @@
+QLite format 3^@^P^@^A^A^@@  ^@^@^@^O^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^B^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>
+^@^@^@^C^NY^@^O\^O
+^NY^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^>
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    case_id INTEGER,
+    file_path TEXT,
+    sha256 TEXT,
+    added_date TEXT
+)P^B^F^W++^AYtablesqlite_sequencesqlite_sequence^CCREATE TABLE sqlite_sequence(name,seq) !^A^G^W^W^W^A !tablecasescases^BCREATE TABLE cases (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            case_name TEXT,
+            investigator TEXT
+        )
+^@^@^@^L^N ^@^O ^O ^O ^O ^O~^Od^OJ^O0^O^V^N ^N ^N ^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>
+^D^@^]%New CaseInvestigator^X   ^D^@^]%New CaseInvestigator^X^H^D^@^]%New CaseInvestigator^X^G^D^@^]%New CaseInvestigator^X^F^D^@^]%New Case>
+^@^@^@^B^O ^@^O ^O ^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^>
+^@^@^@^A^O ^@^O ^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>
+
+

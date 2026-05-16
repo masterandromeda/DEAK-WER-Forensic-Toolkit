@@ -1,0 +1,62 @@
+^@^@^@^@   i ^L^@^@ ^@^@^@^@^@^@^@^@^@^@^@^@^B^@^@^@^@^@^@^@ F^@^@^@ ^@S^@S^AK^@r^@S^@S^AK^Ar^AS^@S^AK^Br^BS^@S^BK^CJ^Cr^C ^@S^C^Z^@r^DS^D^Z^@r^ES^E^Z^@r^FS^F^Z^@r^GS^G>
+hash_values^A^@^@^@  6/home/Abomination123/DEAK-WER/modules/hash_analyzer.py ^Pdetect_hash_typer^L^@^@^@        ^@^@^@sD^@^@^@ ^@ ^G     | | ^T& 
+ ^G3 ^G3 ^O^T   ^K ^\ ^\ ^V( *  5       5 ^O^U  ^K ^\ ^\ ^V( *  5       5 ^O^W ^O^S ^@^@^@^@c^A^@^@^@^@^@^@^@^@^@^@^@^F^@^@^@^C^@^@^@  ^@^@^@^^C ^@^^^@[^@^@^@^@^@^@^@^@>
+^@^@^@  ^@ a f f T lr
+^@^@^@r
+^@^@^@)^F ^Ghashlib ^Fsha256 ^Dopen ^Diter ^Fupdate     hexdigest)^D    file_pathr^V^@^@^@ ^Echunkr^R^@^@^@s^D^@^@^@   @r^K^@^@^@ ^Ogenerate_sha256r^]^@^@^@^W^@^@^@sf^@>
+^Q ) T 
+" a ^Y^] ^^2 C ^Y8 ^E ^P^V 
+ 
+ e ^P$ ^C^@^Z9 ^C^@^N# ^F^@^P^V ^O^_ ^O^_ ^O! ^H! ^G^@^N# 
+"  ^H^A^E^T ^O^S s"^@^@^@ !A6^@ )A%^C 
+^WA6^@ %
+A3^G /^GA6^@ 6^BA:^Cc^C^@^@^@^@^@^@^@^@^@^@^@   ^@^@^@^C^@^@^@ :^A^@^@ ^@^^^@[^@^@^@^@^@^@^@^@^@R^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@"^@S^A5^A^@^@^@^@^@^@n^CU^CR^E^@^>
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@"^@5^@^@^@^@^@^@^@R
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@S^C5^A^@^@^@^@^@^@4^D5^B^@^@^@^@^@^@ ^@U^CR^O^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@5^@^@^@^@^@^@^@ ^@U^CR^Q^@^@^@^@^@^@^@^@^@^@^@^@^@^>
+            INSERT INTO evidence (case_id, file_path, sha256, added_date)
+            VALUES (?, ?, ?, ?)
+        z^Q%Y-%m-%d %H:%M:%Sz^RSaved Successfullyz
+DB Error: )
+ ^Gsqlite3 ^Gconnect ^Fcursor ^Gexecuter^C^@^@^@ ^Cnow ^Hstrftime ^Fcommit ^Eclose      Exception)^F ^Gcase_idr^[^@^@^@ ^Ksha256_hash ^Dconnr!^@^@^@ ^Aes^F^@^@^@      r>
+^T ^L^U ^L^W ^L^T L L N ^L# ^L# $7 ^L8  ^E^N
+ ^G^H   ^K ^T^@ 
+ ^K ^K 
+ ^H^L 
+ 
+ ^L ^O#  ^K^T ^@^A^E  ^Q^[ A 3 ^O^_ ^H^_  ^C^A^E  s^^^@^@^@ A>B^A^@ ^A
+B^Z^C ^K^DB^U^C ^O^AB^Z^C ^U^EB^Z^Cc^A^@^@^@^@^@^@^@^@^@^@^@^D^@^@^@^C^@^@^@  ^@^@^@ ^@[^@^@^@^@^@^@^@^@^@R^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@"^@S^A5^A^@^@^@^@^@^@n^>
+^@^@^@r*^@^@^@r!^@^@^@ ^Fresults^D^@^@^@    r^K^@^@^@ ^Ocheck_duplicater0^@^@^@?^@^@^@sG^@^@^@ ^@ ^K^R ? ? ^[. ^K/ D 
+^Q [ [ ] F ^D
+ N N ^S: Z M ^DJ 
+^S _ _ 
+^^ F ^D^H J J L ^K^Q Mr
+^@^@^@c^A^@^@^@^@^@^@^@^@^@^@^@^K^@^@^@^C^@^@^@  ^@^@^@ ^@U^@R^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@5^@^@^@^@^@^@^@n^@U^@(^@^@^@^@^@^@^@d^A^@^@g^A[^C^@^@^@^@^@^@^@^@U^@>
+U^@S^K9^Cn^EO^BS^Ln^ES
+U^@^N^@S^NU^A^N^@S^OU^E^N^@S^PU^C^N^@S^QU^D^N^@S^R3^Kn^FU^F$^@)^SNu^\^@^@^@❌ ERROR: No data provided.u^_^@^@^@❌ ERROR: Invalid hash format.z^ZAlready exists in databa>
+================ HASH ANALYSIS REPORT ================
+
+Hash Value     : z^R
+Detected Type  : z^S
+
+Database Status: z^S
+
+Reputation     : z^R
+Risk Level     : z 
+
+Recommendation :
+- Preserve as evidence
+- Compare with threat intelligence databases
+- Perform deeper malware analysis
+
+======================================================
+)^D ^Estripr^L^@^@^@r0^@^@^@r,^@^@^@)^Gr
+^@^@^@  hash_type       duplicate 
+reputation ^Drisk       db_status ^Freports^G^@^@^@       r^K^@^@^@ ^Lanalyze_hashr<^@^@^@M^@^@^@s ^@^@^@ ^@ ^Q^[ ^Q! ^Q! ^Q# J ^F^@^L^V ^O- ^F^@^Q! ^Z ^P, I ^K^T ^O0 ^>
+ ^P+ I ^G^P ^U1 
+ ^O^W ^D ^T+     ^U# 
+ ^O^T ^D ^K^T ^H ^K  ^X+ ^X^Y ^Z- ^\& ^G^D^Y^N I ^L^@^Y9 I ^F^C^R^R ^F^@^S^] ^\ ^@^A^^^R ^R^[ ^[ ^@^B^]^R ^R^[ ^[ ^@^B^]^R ^R^\ ^\ ^@^A^^^R ^R^V ^V ^@^H^X^A ^S^Q^N^D F >
+^@^@^@) r^H^@^@^@r^_^@^@^@r^U^@^@^@r^C^@^@^@r^L^@^@^@r^]^@^@^@r,^@^@^@r0^@^@^@r<^@^@^@ ^@r
+^@^@^@r^K^@^@^@ ^H<module>r>^@^@^@^A^@^@^@s*^@^@^@ ^C^A^A^A ^@   ^@^N ^@^N ^@^] 
+^H^A^T ^\^H^A^T ^\^T^A  4^H^A^R ^\5^A^Rr
+^@^@^@
+

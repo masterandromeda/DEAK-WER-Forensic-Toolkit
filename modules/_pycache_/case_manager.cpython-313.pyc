@@ -1,0 +1,23 @@
+^@^@^@^@A^Y i ^B^@^@ ^@^@^@^@^@^@^@^@^@^@^@^@^E^@^@^@^@^@^@^@  ^@^@^@ ^@S^@S^AK^@r^@S^@S^AK^Ar^A\^AR^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@R^G^@^@^@^@^@^@^@^@^@^@^@^@^@^>
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\^ES^BS^C5^C^@^@^@^@^@^@r^GS^D^Z^@r^HS^E^Z^@r       g^A)^F ^@^@^@^@N ^Hdatabasez^Hcases.dbc^@^@^@^@^@^@^@^@^@^@^@^@^F^@^@^@^C^@^@^@ >
+^@^@^@^@^@^@^@^@R^L^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@"^@[^N^@^@^@^@^@^@^@^@5^A^@^@^@^@^@^@n^@U^@R^Q^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@5^@^@^@^@^@^@^@n^AU^AR^S^@^@^@^>
+        CREATE TABLE IF NOT EXISTS cases (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            case_name TEXT,
+            investigator TEXT
+        )
+    )^L ^Bos ^Hmakedirs ^Dpath ^Djoin ^HBASE_DIR ^Gsqlite3 ^Gconnect ^GDB_PATH ^Fcursor ^Gexecute ^Fcommit ^Eclose)^B ^Dconn ^Acs^B^@^@^@   5/home/Abomination123/DEAK-W>
+ A ^D^E I I ^@^F^O^H ^@^F^E      ^P^@^E  K K M ^D^H J J L ^@^@^@^@c^B^@^@^@^@^@^@^@^@^@^@^@^E^@^@^@^C^@^@^@  ^@^@^@ ^@[^@^@^@^@^@^@^@^@^@R^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@>
+^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@5^@^@^@^@^@^@^@ ^@g^@)^BNz9INSERT INTO cases (case_name, investigator) VALUES (?, ?))^Gr^K^@^@^@r^L^@^@^@r
+^@^@^@r^N^@^@^@r^O^@^@^@r^P^@^@^@r^Q^@^@^@)^D   case_name ^Linvestigatorr^R^@^@^@r^S^@^@^@s^D^@^@^@    r^T^@^@^@ ^Kcreate_caser^Z^@^@^@^W^@^@^@sD^@^@^@ ^@ ^K^R ? ? 7 ^K>
+ A ^D^E I I ^HC         ^R ^H! ^E^C^E^F 
+^@^E     K K M ^D^H J J Lr^V^@^@^@)
+r^K^@^@^@r^F^@^@^@r^H^@^@^@ ^Gdirname ^H__file__r
+^@^@^@r ^@^@^@r
+^@^@^@r^U^@^@^@r^Z^@^@^@ ^@r^V^@^@^@r^T^@^@^@ ^H<module>r^^^@^@^@^A^@^@^@sJ^@^@^@ ^C^A^A^A ^@^N ^@       ^K
+ 7 7 ? ? 2 7 7 ? ? 8 ^[4 ^K5 ^H 
+^L ' ' , , x ^Z Z 
+8 ^G ^D^N^A^Q 
+^A^Qr^V^@^@^@
+
+
